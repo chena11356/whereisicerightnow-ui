@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiKey = "AIzaSyAr6vkUSl02WF0Rttg9Bx1_7y25O78raw8"; // Replace with your actual Google API Key
+const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY; // Replace with your actual Google API Key
 const query = "22 Pell Street";
 const radius = 5000; // You can adjust the radius as needed (in meters)
 
